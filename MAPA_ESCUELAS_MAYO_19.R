@@ -5,12 +5,11 @@ library(ggplot2)
 
 ############################################
 #
-# Identificar las escuelas cercanas a calles con volumen 
-# potencialmente alto de tráfico vehicular: Las calles con alto volumen  
-# están etiquetadas en class_id:101,102,103,106,107,108.
+# Identificar las escuelas cercanas a calles con volúmen potencialmente alto de tráfico digamos que son estas -> class_id:101,102,103,106,107,108.
 #
-# Seleccionar de la tabla de todas las calles las identificadas con mucho tráfico, 
-# después hacer un buffer sobre la selección y luego la intersección con las escuelas.
+# a) Seleccionar todas las calles las identificadas con mucho tráfico 
+# b) Hacer un buffer sobre la selección
+# c) Hacer una intersección con las escuelas
 ############################################
 
 # Metemos los shapes en unas variables
